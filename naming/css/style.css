@@ -1,0 +1,67 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.object_top {
+	padding-left: 360px;
+}
+
+.bottom {
+	color: #6e6464;
+	font-family: Arial;
+	font-size: 12px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+.object {
+	display: flex;
+}
+
+img { 
+	max-width: 50%;
+}
+
+.object_info {
+	padding: 5px 0 0 5px;
+	margin: 10px;
+
+}
+
+.object_name {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: #333;
+	display: flex;
+	justify-content: space-between;
+}
+
+.object_en_name {
+	color: #666;
+	font-size: 13px;
+}
+
+.object_ml {
+	color: #666;
+	font-size: 10px;
+}
+
+.object_code {
+	color: #999999;
+	font-size: 11px;
+}
+
+.botton_buy {
+	background: #792c9b;
+	color: #fff;
+	width: 160px;
+	padding: 7px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom: 160px;
+}
