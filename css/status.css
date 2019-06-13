@@ -1,6 +1,6 @@
 body {
-	background: url(../img/mount.jpg) no-repeat center / cover;
-	height: 730px;
+	background: url(../img/mount.jpg) no-repeat;
+	background-size: 100%;
 }
 
 .name {
