@@ -1,12 +1,18 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: Montserrat,sans-serif;
 }
 
-.object_top {
-	padding-left: 360px;
+.product_top {
+	padding-left: 370px;
+	display: flex;
 }
 
+.product_rating {
+	font-size: 10px;
+	color: #792c9b;
+}
 .button {
 	color: #6e6464;
 	font-family: Arial;
@@ -15,42 +21,46 @@ body {
 	margin: 0;
 }
 
-.object {
+.product_winter_info {
 	display: flex;
 }
 
-img { 
+.img_winter { 
 	max-width: 50%;
 }
 
-.object_info {
+.product_property {
 	padding: 5px 0 0 5px;
 	margin: 10px;
-
 }
 
-.object_name {
+.product_name {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 13px;
 	color: #333;
-	display: flex;
-	justify-content: space-between;
 }
 
-.object_en_name {
+.product_en_name {
 	color: #666;
 	font-size: 13px;
+	padding-top: 8px;
 }
 
-.object_ml {
+.product_ml {
 	color: #666;
 	font-size: 10px;
+	padding-top: 7px;
 }
 
-.object_code {
+.product_code {
 	color: #999999;
 	font-size: 11px;
+	padding-top: 7px;
+}
+
+.product_cost {
+	padding-top: 70px;
 }
 
 .button_buy {
@@ -63,5 +73,13 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 15px;
-	margin-bottom: 160px;
+	margin-bottom: 180px;
+}
+
+.product_aloe_info {
+	display: flex;
+}
+
+.img_aloe {
+	max-width: 45%;
 }
