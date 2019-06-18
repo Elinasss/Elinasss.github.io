@@ -4,8 +4,11 @@ body {
 	font-family: Montserrat,sans-serif;
 }
 
+.product_img {
+	flex-basis: 148px;
+}
 .product_top {
-	padding-left: 370px;
+	padding-left: 163px;
 	display: flex;
 }
 
@@ -26,12 +29,13 @@ body {
 }
 
 .img_winter { 
-	max-width: 50%;
+	max-width: 100%;
 }
 
 .product_property {
 	padding: 5px 0 0 5px;
 	margin: 10px;
+	flex-grow: 3;
 }
 
 .product_name {
@@ -63,6 +67,11 @@ body {
 	padding-top: 70px;
 }
 
+.product_add {
+	display: flex;
+	flex-grow: 1;
+}
+
 .button_buy {
 	background: #792c9b;
 	color: #fff;
@@ -81,5 +90,5 @@ body {
 }
 
 .img_aloe {
-	max-width: 45%;
+	max-width: 127%;
 }
