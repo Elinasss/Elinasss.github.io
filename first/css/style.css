@@ -4,9 +4,11 @@ body {
 	font-family: Montserrat,sans-serif;
 }
 
-.product_img {
-	flex-basis: 148px;
+.product {
+	border-top: 1.5px solid #dcc9c9;
+	padding-top: 10px;
 }
+
 .product_top {
 	padding-left: 163px;
 	display: flex;
@@ -26,6 +28,10 @@ body {
 
 .product_info {
 	display: flex;
+}
+
+.product_img {
+	flex-basis: 148px;
 }
 
 .img_winter { 
