@@ -18,7 +18,7 @@ body {
 	font-size: 10px;
 	color: #792c9b;
 }
-.button {
+.reviews {
 	color: #6e6464;
 	font-family: Arial;
 	font-size: 12px;
@@ -73,16 +73,23 @@ body {
 	padding-top: 70px;
 }
 
+.product_sale {
+	color: grey;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+
 .product_add {
 	flex-basis: 30%;
 	text-align: center;
 	min-width: 30%;
 }
 
-.button_buy {
+.button {
 	background: #792c9b;
 	color: #fff;
 	padding: 11px 40px;
+	display: inline-block;
 	margin: 0 auto;
 	text-decoration: none;
 	text-align: center;
