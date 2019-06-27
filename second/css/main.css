@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.ticket {
+  display: flex;
+}
+
+.control {
+  background: #241b1e;
+  border-right: 2px dashed #fff;
+  max-width: 180px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+.qr_code {
+  width: 60%;
+  padding-top: 10px;
+}
+
+.info {
+  background: url(../img/im.png);
+  background-size: cover;
+  width: 370px;
+  color: #fff;
+  text-align: center;
+}
+
+.info_name {
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.info_date {
+  padding-top: 10px;
+}
