@@ -3,33 +3,121 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Квиток на потяг</title>
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 </head>
 <body>
-	<div class="top">
-		<div class="logo">
-			<img src="img/rozetka.jpg" alt="rozetka">
+	<header class="header">
+		<div class="container">
+			<div class="top">
+				<div class="logo">
+					<img src="img/rozetka.jpg" alt="rozetka">
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="#">Авіаквитки</a> 
+						</li>
+						<li>
+							<a href="#">Ж/д квитки</a> 
+						</li>
+						<li>
+							<a href="#">Автобуси</a> 
+						</li>
+					</ul>
+				</div>
+				<div class="cabinet">
+					<a href="#">Мій квиток</a>
+				</div>
+			</div>	
 		</div>
-		<div class="menu">
-			<ul>
-				<li>Авіаквитки</li>
-				<li>Ж/д квитки</li>
-				<li>Автобуси</li>
-			</ul>
+	</header>
+	<section class="search">
+		<div class="container">
+			<div class="side">
+				<input type="radio" name="side" placeholder="Звідки">
+					В одну сторону
+				<input type="radio" name="side" placeholder="Куди">
+					В обидві сторони
+			</div>
+			<div class="border"></div>
+			<div class="search-direction">
+				<div class="search-direction-one">
+					<input type="text" name="side" placeholder="Звідки">
+				</div>
+					<i class="fas fa-exchange-alt"></i>
+				<div class="search-direction-two">
+					<input type="text" name="side" placeholder="Куди">
+				</div>
+				<div class="search-date">
+					<input type="date" name="date">
+				</div>
+				<div class="search-button">
+					<a href="#">Пошук</a>
+				</div>
+			</div>
 		</div>
-		<div class="cabinet">
-			Мій квиток
+	</section>
+	<section class="advantages">
+		<div class="container">
+			<h1 class="advantages-title">
+				ПЕРЕВАГИ TRAVEL.ROZETKA.COM.UA
+			</h1>
+			<div class="advantages-price">
+				<img src="img/price.jpg" alt="price" class="advantages-logo">
+				<div class="advantages-info">
+					<h2>Чесні ціни на ж/д квитки всіх напрямків</h2>
+					<p>
+						Купити квитки на поїзд без черги і не виходячи з дому - це легко! На нашому сайті можна купити квиток онлайн без додаткових комісій і зборів. Ви вибираєте напрямок, клас вагона і місця. Наша пошукова система шукає для вас найкращі пропозиції за ціною і з повідомленням. Забронювати квитки за найкращими цінами можна не виходячи з дому. Оплата здійснюється за допомогою банківської карти. Ж/д квитки за найкращими цінами шукайте у нас на сайті.
+					</p>
+				</div>
+			</div>
+			<div class="advantages-support">
+				<img src="img/support.jpg" alt="price" class="advantages-logo">
+				<div class="advantages-info">
+					<h2>Підтримка клієнтів на кожному етапі покупки</h2>
+					<p>
+						Оператори колл-центру готові відповісти на будь-які питання, пов'язані з пошуком, бронюванням і оплатою ж / д квитків онлайн. Ви можете звернутися за допомогою в будь-яку хвилину дня і ночі: служба підтримки клієнтів працює 24 години на добу сім днів на тиждень. Кваліфіковані оператори нададуть вам детальну інформацію про те, як знайти найдешевші квитки, як оплатити покупку через інтернет, як забронювати квиток або здійснити повернення.
+					</p>
+				</div>
+			</div>
 		</div>
-
-	</div>
-
-
-	
-
-
-
-
-
+	</section>
+	<section class="reference">
+		<div class="container">
+			<div class="menu-reference">
+				<ul>
+					<li>
+						<a href="#" class="">Мій квиток</a>
+					</li>
+					<li>
+						<a href="#" class="">Сервіси</a>
+					</li>
+					<li>
+						<a href="#" class="">Справка</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer-info">
+				Уникальный идентификатор пользовательской сессии для сообщения в Cлужбу заботы о клиентах: 0207607905
+			</div>
+			<div class="connection">
+				<div class="connection-tel">
+					+38 044 379 31 40
+				</div>
+				<div class="connection-chat">
+					Онлайн чат
+				</div>	
+				<div class="connection-opinion">
+					Відгуки
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
